@@ -1,0 +1,318 @@
+/* nav css begine */
+.youtube__logo {
+  height: 19px;
+  width: 19px;
+}
+.Mbrand__logo {
+  height: 19px;
+  width: 19px;
+}
+.discord__logo {
+  height: 19px;
+  width: 19px;
+}
+.github__logo {
+  height: 19px;
+  width: 19px;
+  border-radius: 30px;
+}
+.twitter__logo {
+  height: 19px;
+  width: 19px;
+}
+.nav__menu {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.nav__site__logo {
+  margin-left: 115px;
+}
+.nav__site__pages {
+  margin-left: 305px;
+  margin-right: 200px;
+}
+.nav__menu__list {
+  list-style-type: none;
+}
+.nav__menu__link {
+  text-decoration: none;
+  color: #85858b;
+  font-size: 19px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.active {
+  color: black;
+  border-bottom: solid #e16165 3px;
+  padding: 5px 5px 27px 5px;
+}
+.nav__menu__item {
+  padding: 10px 10px 20px 10px;
+  display: inline;
+}
+.nav__menu__item :hover {
+  color: black;
+  border-bottom: solid #e16165 3px;
+  padding: 5px 5px 27px 5px;
+}
+.Smedia__icons__list {
+  list-style-type: none;
+}
+.Smedia__icon__item {
+  display: inline;
+  padding: 10px;
+}
+/* nav css end */
+/* main css begine */
+/* main content begine start */
+.main__content {
+  margin-top: 70px;
+}
+.main__content {
+  display: flex;
+  flex-direction: column;
+}
+.main__content__begine {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main__content__end {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #616dff;
+}
+.main__content__begine__par {
+  padding: 20px 20px 20px 60px;
+  width: 450px;
+}
+.main__content__begine__header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #1d1f3c;
+  font-size: 62px;
+  word-wrap: break-word;
+}
+.main__content__begine__text {
+  color: #85858b;
+  font-size: 21px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.main__content__begine__button {
+  cursor: pointer;
+  background: linear-gradient(90deg, #e95e62, #ee4265);
+  padding: 16px 70px 16px 70px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: linear-gradient(-45deg, transparent 10px, #ca4f68 0);
+}
+.main__content__begine__subpar {
+  padding: 20px 20px 20px 11px;
+  width: 450px;
+  justify-content: center;
+}
+.main__content__begine__subheader {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #1d1f3c;
+  font-size: 42px;
+  word-wrap: break-word;
+}
+.main__content__begine__space {
+  margin-top: 150px;
+}
+.main__content__begine__subpar__stick {
+  height: 7px;
+  width: 90px;
+  border: solid #ca4f68 1px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 10px;
+}
+.main__content__begine__subpar__middlestick {
+  height: 7px;
+  width: 45px;
+  border: solid #ca4f68 1px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 10px;
+}
+.main__content__begine__subpar__dot {
+  height: 7px;
+  width: 7px;
+  border: solid #ca4f68 1px;
+  border-radius: 20px;
+  background-color: #ca4f68;
+  display: inline-block;
+  margin: 10px;
+}
+/* main content begine end */
+/* main content end start */
+.main__content__end {
+  justify-content: space-around;
+}
+.main__content__end__header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #fff;
+  font-size: 42px;
+  word-wrap: break-word;
+}
+.main__content__end__par {
+  padding: 20px 20px 20px 11px;
+  width: 450px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.main__content__end__text {
+  color: #d3d8f4;
+  font-size: 21px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.white__line__top {
+  border-bottom: solid 1px white;
+  margin-top: 40px;
+}
+.white__line__bottom {
+  border-top: solid 1px white;
+  margin-top: -1px;
+}
+.main__content__end__button {
+  cursor: pointer;
+  padding: 16px 70px 16px 70px;
+  border: solid 1px #fff;
+  background: #616dff;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 30px;
+}
+/* main content end end */
+/* main css end */
+/* footer css begine*/
+.founding__members {
+  margin-top: 80px;
+  margin-bottom: 89px;
+}
+.founding__members__heading {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #1d1f3c;
+  font-size: 38px;
+  word-wrap: break-word;
+  text-align: center;
+}
+.founding__members__par {
+  color: #85858b;
+  font-size: 21px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.founding__members__item {
+  display: inline-block;
+  padding: 40px;
+}
+.founding__members__list {
+  display: flex;
+  justify-content: space-around;
+}
+.founding__members__list__icon {
+  height: 15px;
+  width: 15px;
+  border-radius: 30px;
+}
+.founding__members__list__heading {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #1d1f3c;
+}
+.founding__members__list__par {
+  word-wrap: break-word;
+  width: 200px;
+  color: #85858b;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.web3infra {
+  margin-top: 80px;
+  margin-bottom: 89px;
+}
+.web3infra__button {
+  cursor: pointer;
+  padding: 10px;
+  color: #bbbbc0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: none;
+  border-bottom: solid 1px #85858b;
+  background-color: #fff;
+  font-size: 17px;
+}
+/* registration section */
+.registration__section {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 89px;
+}
+.registration__section__heading {
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #1d1f3c;
+}
+.registration__section__par {
+  word-wrap: break-word;
+  color: #85858b;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.registration__section__item {
+  padding: 20px;
+  border: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 17px;
+  border-bottom: solid 1px rgb(158, 155, 155);
+  width: 350px;
+  margin: 20px;
+  cursor: pointer;
+}
+.privacy {
+  color: #85858b;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.privacy__checkbox {
+  padding: 20px;
+}
+.submit__button {
+  color: #ffffff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 22px;
+  padding: 16px 70px 16px 70px;
+  background-color: #ca4f68;
+  border: none;
+  margin-top: 20px;
+}
+.footer__end {
+  color: #85858b;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 22px;
+  padding: 16px 70px 16px 70px;
+  border: none;
+  margin-top: 20px;
+  text-align: center;
+}
+/* footer css end */
